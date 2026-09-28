@@ -1,32 +1,32 @@
 # YouTube Homepage Clone 🎥
 
-مشروع استنساخ واجهة الصفحة الرئيسية لموقع يوتيوب (YouTube Home Page Clone) باستخدام **HTML5** و **CSS3** فقط. تم التركيز في هذا المشروع على بناء شبكة استجابية (Responsive Grid Layout)، استخدام Flexbox، وتطبيق ممارسات التنسيق المتقدمة للمكونات الثابتة والتفاعلية.
+A responsive YouTube homepage clone built strictly with **HTML5** and **CSS3**. This project focuses on building a responsive grid layout, utilizing Flexbox, and implementing advanced styling techniques for fixed and interactive elements.
 
 ---
 
-## 🌟 المميزات (Features)
+## 🌟 Features
 
-* **شريط علوي ثابت (Header):** يحتوي على الشعار، شريط البحث مع أزرار التلميحات (Tooltips)، أزرار الإنشاء والإشعارات، وصورة الحساب الشخصي[cite: 2, 5].
-* **شريط جانبي ثابت (Sidebar / Navbar):** يحتوي على روابط التنقل الرئيسية (Home, Explore, Subscriptions, etc.)[cite: 3, 5].
-* **شبكة فيديوهات استجابية (Responsive Video Grid):**
-  * تتكيف تلقائيًا مع شاشات الهواتف، الأجهزة اللوحية، والشاشات الكبيرة باستخدام `CSS Grid` و `@media queries`.
-  * عرض الصورة المصغرة (Thumbnail)، مدة الفيديو، صورة القناة، العنوان، اسم القناة، وعدد المشاهدات/التاريخ[cite: 4, 5].
-* **تأثيرات التفاعل (Tooltips & Hover Effects):** ظهور تلميحات توضيحية بسيطة عند إشارة الفأرة فوق الأزرار.
-* **خطوط جوجل (Google Fonts):** استخدام خط `Roboto` لتماثل الواجهة الأصلية[cite: 1, 2, 5].
+* **Fixed Header:** Includes the logo, search bar with tooltips, creation & notification buttons, and user profile image.
+* **Fixed Navigation Sidebar:** Contains main navigation links (Home, Explore, Subscriptions, etc.).
+* **Responsive Video Grid:**
+  * Automatically adapts to mobile, tablet, and desktop screens using `CSS Grid` and `@media queries`.
+  * Displays video thumbnails, duration badges, channel avatars, video titles, channel names, views, and upload dates.
+* **Interactive Tooltips & Hover Effects:** Displays informational tooltips on hover over toolbar icons.
+* **Google Fonts Integration:** Utilizes the `Roboto` font to match YouTube's official design language.
 
 ---
 
-## 📁 هيكل المشروع (Project Structure)
+## 📁 Project Structure
 
 ```text
 .
-├── index.html              # ملف الصفحة الرئيسية (HTML Structure)
+├── index.html              # Main HTML document
 ├── styles/
-│   ├── general.css         # التنسيقات العامة والخطوط[cite: 1]
-│   ├── header.css          # تنسيقات الشريط العلوي والأزرار[cite: 2]
-│   ├── navbar.css          # تنسيقات الشريط الجانبي[cite: 3]
-│   └── video.css           # تنسيقات شبكة الفيديوهات والاستجابة
+│   ├── general.css         # Global styles and font declarations
+│   ├── header.css          # Top navigation bar styling
+│   ├── navbar.css          # Left sidebar navigation styling
+│   └── video.css           # Video grid layout and responsive breakpoints
 └── images/
-    ├── iconts/             # أيقونات SVG وصورة الملف الشخصي
-    ├── channel-picture/    # صور قنوات اليوتيوب[cite: 5]
-    └── video-picture/      # الصور المصغرة للفيديوهات[cite: 5]
+    ├── iconts/             # UI SVG icons and user avatar
+    ├── channel-picture/    # Channel avatar images
+    └── video-picture/      # Video thumbnail images
